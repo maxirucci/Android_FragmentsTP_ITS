@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TP Fragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtNombre">Nombre: </string>
+    <string name="txtDireccion">Dirección: </string>
+    <string name="descrFotoPerfil">Foto de perfil</string>
+    <string name="txtNumeroTelefono">Número teléfono: </string>
+    <string name="descr_fotoContacto">Foto del contacto</string>
+
+
+    <!-- keys bundle -->
+    <string name="key_apellido">apellido</string>
+    <string name="key_nombre">nombre</string>
+    <string name="key_numeroTelefono">numeroTelefono</string>
+    <string name="key_direccion">direccion</string>
+    <string name="key_urlFoto">urlFoto</string>
+</resources>

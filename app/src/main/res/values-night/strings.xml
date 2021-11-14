@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtNombre">Nombre: </string>
+    <string name="txtDireccion">Dirección: </string>
+    <string name="descrFotoPerfil">Foto de perfil</string>
+    <string name="txtNumeroTelefono">Número teléfono: </string>
+    <string name="descr_fotoContacto">Foto del contacto</string>
+
+    <!-- keys bundle -->
+    <string name="key_apellido">apellido</string>
+    <string name="key_nombre">nombre</string>
+    <string name="key_numeroTelefono">numeroTelefono</string>
+    <string name="key_direccion">direccion</string>
+    <string name="key_urlFoto">urlFoto</string>
+</resources>

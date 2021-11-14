@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contactosFragment">
+
+    <fragment
+        android:id="@+id/contactosFragment"
+        android:name="com.maxirucci.fragmentstp_its.vistas.fragments.ContactosFragment"
+        android:label="fragment_contactos"
+        tools:layout="@layout/fragment_contactos" >
+        <action
+            android:id="@+id/action_contactosFragment_to_detallesFragment"
+            app:destination="@id/detallesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallesFragment"
+        android:name="com.maxirucci.fragmentstp_its.vistas.fragments.DetallesFragment"
+        android:label="DetallesFragment" >
+        <action
+            android:id="@+id/action_detallesFragment_to_contactosFragment"
+            app:destination="@id/contactosFragment" />
+    </fragment>
+</navigation>
